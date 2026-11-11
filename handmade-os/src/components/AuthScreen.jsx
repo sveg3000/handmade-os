@@ -70,4 +70,4 @@ const AuthScreen = () => {
     );
 };
 
-export default AuthScreen;
+export default AuthScreen; 
