@@ -1,0 +1,130 @@
+.auth-screen {
+    background: linear-gradient(135deg, #E8F3F5 0%, #FDE4EB 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.auth-card {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 40px 32px;
+    max-width: 440px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(61, 117, 132, 0.15);
+}
+
+.auth-logo {
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(135deg, #3D7584 0%, #89B8BF 100%);
+    border-radius: 20px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.auth-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.auth-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.auth-tabs {
+    display: flex;
+    background: #F7F9FA;
+    border-radius: 12px;
+    padding: 4px;
+    margin-bottom: 24px;
+}
+
+.auth-tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #888;
+}
+
+.auth-tab.active {
+    background: #FFFFFF;
+    color: #000000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.auth-field {
+    margin-bottom: 14px;
+}
+
+.auth-field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #3D7584;
+}
+
+.auth-field input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 2px solid #E8F3F5;
+    border-radius: 12px;
+    font-size: 14px;
+    background: #F7F9FA;
+}
+
+.auth-field input:focus {
+    outline: none;
+    border-color: #3D7584;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    padding-right: 44px;
+}
+
+.eye-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-main {
+    width: 100%;
+    background: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.btn-main:hover {
+    background: #3D7584;
+}
