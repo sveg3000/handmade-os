@@ -32,7 +32,7 @@ const Dashboard = () => {
     };
 
     return (
-        <div className="dashboard-container" style={{ background: 'red', minHeight: '100vh' }}>
+        <div className="dashboard-container">
             {/* САЙДБАР */}
             <aside className="sidebar">
                 <div className="sidebar-logo">
